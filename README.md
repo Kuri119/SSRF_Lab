@@ -14,7 +14,9 @@ Mục tiêu:
    cd SSRF-Lab
 
 ## Khởi chạy
+   ```bash
    docker-compose up -d
 
 ## Dọn dẹp lab và cơ sở dữ liệu
+   ```bash
    docker-compose down -v
