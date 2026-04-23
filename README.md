@@ -13,10 +13,10 @@ Mục tiêu:
    git clone https://github.com/kuri119/SSRF-Lab.git
    cd SSRF-Lab
 
-## Khởi chạy
+## Hướng dẫn vận hành
+1. **Dùng lệnh sau để bắt đầu dựng môi trường:**
    ```bash
    docker-compose up -d
-
-## Dọn dẹp lab và cơ sở dữ liệu
+2. **Dùng lệnh sau để xóa hoàn toàn môi trường:**
    ```bash
    docker-compose down -v
