@@ -15,7 +15,7 @@ services:
       - lab-network
 
   web:
-    image: kuri119/ssrf-lab-web:v1
+    image: kuri119/ssrf-lab-web:v2
     container_name: lab-web
     ports:
       - "8080:80"
