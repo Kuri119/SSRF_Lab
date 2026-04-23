@@ -10,7 +10,7 @@ Mục tiêu:
 1. **Yêu cầu:** Máy đã cài sẵn `Docker` và `docker-compose`.
 2. **Clone bài Lab:**
    ```bash
-   git clone https://github.com/Kuri119/SSRF-Lab.git
+   git clone https://github.com/Kuri119/SSRF_Lab.git
    cd SSRF-Lab
 
 ## Hướng dẫn vận hành
