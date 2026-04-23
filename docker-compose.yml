@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: lab-db
+    restart: always
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE: lab_db
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - lab-network
+
+  web:
+    image: kuri119/ssrf-lab-web:v1
+    container_name: lab-web
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - lab-network
+
+networks:
+  lab-network:
+    driver: bridge
