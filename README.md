@@ -12,3 +12,9 @@ Mục tiêu:
    ```bash
    git clone https://github.com/kuri119/SSRF-Lab.git
    cd SSRF-Lab
+
+## Khởi chạy
+   docker-compose up -d
+
+## Dọn dẹp lab và cơ sở dữ liệu
+   docker-compose down -v
