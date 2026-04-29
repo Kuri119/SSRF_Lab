@@ -3,7 +3,8 @@
 Bài Lab giả lập lỗ hổng SSRF (Server-Side Request Forgery) cơ bản đến nâng cao. 
 Mục tiêu: 
 - Vượt qua blacklist để truy cập vào trang Admin nội bộ. tại http://localhost/admin/
-- Thực hiện RCE và đọc flag tại đấy
+- Thực hiện RCE và đọc flag
+- Người chơi được cấp sẵn tài khoản người dùng thường steve:123456 để truy cập vào trang web
 
 ## Cách cài đặt
 
