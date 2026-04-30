@@ -1,6 +1,6 @@
 # SSRF to Admin Interface Lab
 
-Bài Lab giả lập lỗ hổng SSRF (Server-Side Request Forgery) cơ bản đến nâng cao. 
+Bài Lab giả lập lỗ hổng SSRF (Server-Side Request Forgery) cơ bản đến nâng cao. Truy cập vào trang web lab tại địa chỉ http://localhost:8080 
 Mục tiêu: 
 - Vượt qua blacklist để truy cập vào trang Admin nội bộ. tại http://localhost/admin/
 - Thực hiện RCE và đọc flag
