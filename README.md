@@ -23,4 +23,4 @@ Mục tiêu:
    docker-compose down -v
 
 ## Write up
-Trong trường hợp bạn muốn đọc báo cáo tổng quát về lab hay cách thức bypass bài lab này thì có thể tham khảo file **SSRF_to_RCE_lab.pdf
+Trong trường hợp bạn muốn đọc báo cáo tổng quát về lab hay cách thức bypass bài lab này thì có thể tham khảo file **SSRF_to_RCE_lab.pdf**
