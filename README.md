@@ -21,3 +21,6 @@ Mục tiêu:
 2. **Dùng lệnh sau để xóa hoàn toàn môi trường:**
    ```bash
    docker-compose down -v
+
+## Write up
+Trong trường hợp bạn muốn đọc báo cáo tổng quát về lab hay cách thức bypass bài lab này thì có thể tham khảo file **SSRF_to_RCE_lab.pdf
